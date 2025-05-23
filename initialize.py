@@ -167,8 +167,8 @@ def load_data_sources():
     web_docs_all = []
 
     # プロキシ設定
-    os.environ['http_proxy'] = 'http://10.12.1.253:8080'
-    os.environ['https_proxy'] = 'http://10.12.1.253:8080'
+    #os.environ['http_proxy'] = 'http://10.12.1.253:8080'
+    #os.environ['https_proxy'] = 'http://10.12.1.253:8080'
 
     # ファイルとは別に、指定のWebページ内のデータも読み込み
     # 読み込み対象のWebページ一覧に対して処理
